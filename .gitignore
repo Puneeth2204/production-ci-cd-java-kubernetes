@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Java / Maven
+target/
+*.class
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+credentials
+credentials.json
+
+# Kubernetes
+.kube/
+kubeconfig
+
+# Jenkins
+secrets/
+jenkins_home/
